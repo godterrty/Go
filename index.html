@@ -1,0 +1,12 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    페이지가 자동으로 이동되지 않는다면 <a id="forward" href="">여기</a>를 눌러주세요.<br>
+      
+    <script>
+        location.href = location.search.split('adress=')[1];
+        document.getElementById('forward').setAttribute('href', location.search.split('adress=')[1]);
+    </script></body></html>
+
